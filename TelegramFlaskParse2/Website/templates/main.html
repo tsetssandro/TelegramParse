@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Telethon + Flask Example</title>
+  </head>
+  <body>
+
+    <button>Login</button>
+
+    <h1>User's Chats</h1>
+    <ul>
+      {% for chat in chats %}
+        <li>{{ chat.name }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
